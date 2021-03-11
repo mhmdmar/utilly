@@ -15,7 +15,7 @@ Note: add `--save` if you are using npm < 5.0.0
 
 In Node.js:
 ```js
-// Load the full build.
+// Load the full library.
 const utily = require('utily');
 
 // Load specific function.
