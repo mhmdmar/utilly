@@ -1,34 +1,34 @@
-# utily
+# utilly
 
 Utils functions for javascript.
 
 
-Utily is released under the [MIT license]<br>
+utilly is released under the [MIT license]<br>
 
 ## Installation
 
 Using npm:
 ```shell
-$ npm install utily
+$ npm install utilly
 ```
 Note: add `--save` if you are using npm < 5.0.0
 
 In Node.js:
 ```js
 // Load the full library.
-const utily = require('utily');
+const utilly = require('utilly');
 
 // Load specific function.
-const { cloneObject } = require('utily');
+const { cloneObject } = require('utilly');
 ```
 
-## Why Utily?
+## Why utilly?
 
-Utily functions takes the magic out of javascript leaving you to worry only about the logic,<br>
+utilly functions takes the magic out of javascript leaving you to worry only about the logic,<br>
 
 ## Examples
 ```js
-const { isNil, cloneObject } = require('utily');
+const { isNil, cloneObject } = require('utilly');
 
 isNil(null) === true // true
 isNil() === true // true
