@@ -1,3 +1,3 @@
-const utilly = require("./src/utily.js");
+const utilly = require("./src/utilly.js");
 
-exports.utilly = utilly;
+module.exports = utilly
