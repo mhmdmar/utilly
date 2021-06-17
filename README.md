@@ -24,7 +24,7 @@ const { cloneObject } = require('utilly');
 
 ## Why utilly?
 
-utilly functions takes the magic out of javascript leaving you to worry only about the logic,<br>
+utilly functions takes the magic out of javascript leaving you to worry only about the logic.<br>
 
 ## Examples
 ```js
@@ -38,4 +38,5 @@ isNil(false) === true // false
 const array = [1,2]
 const clonedArray = cloneObject(array)
 clonedArray.push(3); // array equals [1,2]
+// check utilly.d.ts file to see every function utilly supports.
 ```
